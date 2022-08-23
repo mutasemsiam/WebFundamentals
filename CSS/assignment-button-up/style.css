@@ -1,0 +1,19 @@
+
+
+#searchbutton{
+    color: rgb(9, 107, 107);
+    border-radius: 9pt;
+    border: 1px solid rgb(9, 107, 107) ;
+}
+
+#plusbutton{
+    background-color: aqua;
+    border-radius: 50%;
+    font-size: large;
+    border: 50pt;
+    
+}
+#createbutton{
+    background-color: blue;
+    box-shadow: 2px 1px;
+}
