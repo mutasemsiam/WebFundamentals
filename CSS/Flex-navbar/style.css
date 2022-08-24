@@ -1,35 +1,40 @@
 
-
-
 .nav {
-    outline: 1px solid red;
     justify-content: space-between;
     display: flex;
-    background-color: blueviolet;
+    background-color: darkgray;
     height: 50px;
     width: 900px;
-
-
+    padding: 10px;
 
 }
 .nav-links{
     margin: 0px;
     padding-left: 0px;
-    outline: 1px solid black;
     display: flex;
     list-style: none;
     justify-content: space-around;
-    background-color: skyblue;
+    background-color: darkgray;
     width: 400px;
     height: 50px;
     align-items: center;
+    text-decoration: none;
 }
 
 .nav-title{
     margin: 0;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     min-width: 500px;
     height: 50px;
-    background-color: blue;
+    background-color: darkgray;
+    margin-top: 5px;
     
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+.btn {
+    background: blue;
+    box-shadow: 2px 2px 1px 1px black;
 }
