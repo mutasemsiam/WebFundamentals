@@ -1,0 +1,35 @@
+
+
+
+.nav {
+    outline: 1px solid red;
+    justify-content: space-between;
+    display: flex;
+    background-color: blueviolet;
+    height: 50px;
+    width: 900px;
+
+
+
+}
+.nav-links{
+    margin: 0px;
+    padding-left: 0px;
+    outline: 1px solid black;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: skyblue;
+    width: 400px;
+    height: 50px;
+    align-items: center;
+}
+
+.nav-title{
+    margin: 0;
+    outline: 1px solid black;
+    min-width: 500px;
+    height: 50px;
+    background-color: blue;
+    
+}
