@@ -14,7 +14,6 @@
 }
 
 .profile, .links, .btn{
-    /* background-color: rgb(7, 7, 56); */
     padding: 10px;
     margin: 10px;
     flex: 1;
@@ -53,29 +52,23 @@
 }
 
 .mainbox{
-    width: 600px;
-    height: 800px;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    margin-left: 380px;
-    margin-top: 100px;
-    
-    
+    margin-top: 100px; 
+    display: flex;
+    justify-content: center;  
 }
 
 .col1{
-    width: 400px;
+    min-width: 400px; 
     height: 800px;
-    position: absolute;
-    margin-left: 0px;
 }
 
 .col2{
     width: 200px;
     height: 800px;
-    position: absolute;
-    margin-left: 400px;
 }
-
 
 .user-card{
     width:400px;
@@ -177,31 +170,31 @@ font-size: 15px;
 
 }
 .line1, .line2, .line3{
-    margin-left: 25px;
+margin-left: 25px;
 }
 .line2{
-    color: darkgray;
+color: darkgray;
 }
 .line3{
-    overflow: hidden;
+overflow: hidden;
 }
 
 .connection-req{
-    width:180px;
-    height: 150px;
-    margin: auto;
-    position: absolute;
-    margin-left: 20px;
+width:180px;
+height: 150px;
+margin: auto;
+position: absolute;
+margin-left: 20px;
 
 }
 
 .conn-req-top{
-    background-color: darkgray;
-    width: 100%;
-    height: 33%;
-    position: relative;
-    display: flex;
-    align-items: center;
+background-color: darkgray;
+width: 100%;
+height: 33%;
+position: relative;
+display: flex;
+align-items: center;
 
 }
 
@@ -216,39 +209,28 @@ font-size: 15px;
 
 }
 
-.circle{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 1px solid gray ;
-    background-color: grey;
-    position: absolute;
-    margin-left: 10px;
-    text-align: center;
-    font-family: arial;
-    padding: 2px;
-    font-size: 17px;
-    align-items: center;
-    line-height: 30px;
-    
+.circle, .circle2{
+border-radius: 50%;
+border: 1px solid gray ;
+background-color: grey;
+position: absolute;
+margin-left: 10px;
+text-align: center;
+font-family: arial;
+padding: 2px;
+font-size: 17px;
+align-items: center;
+line-height: 30px;
 }
-.circle2{
-    width: 40px;
-    height: 30px;
-    border-radius: 50%;
-    border: 1px solid gray ;
-    background-color: grey;
-    position: absolute;
-    margin-left: 10px;
-    text-align: center;
-    font-family: arial;
-    padding: 2px;
-    font-size: 17px;
-    align-items: center;
-    line-height: 30px;
-    
+.circle{
+width: 30px;
+height: 30px;
 }
 
+.circle2{
+width: 40px;
+height: 30px;
+}
 
 .list1 img{
     width: 20px;
@@ -300,7 +282,6 @@ font-size: 15px;
 border: 4px solid lightgray;
 width: 172px;
 height: 12%;
-/* border-top-style: none; */
 border-bottom: none;
 position: absolute;
 font-size: 15px;
