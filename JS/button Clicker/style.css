@@ -1,0 +1,122 @@
+
+.row{
+    background-color: gray;
+    width: 100%;
+    max-width: 900px;
+    height: 20%;
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.row2, .row3{
+    background-color: white;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    margin: 0 auto;
+}
+.row2, .row3{
+    height: 40%;
+}
+
+.col, .col-1, .col-2, .col-3, .colm{
+    flex: 1;
+    margin: 1px;
+    align-items: center;
+
+}
+.colm{
+    flex: 2;
+    min-width: 220px; 
+}
+.col-2{
+    display: flex;
+    flex: 2;
+}
+
+.col-3{
+    flex: 3;
+} 
+
+.col, .colm{
+    height: 70px;
+    background-color: gray;
+    
+}
+
+.col-1, .col-2{
+    height: 300px;
+    
+}
+.col h1{
+    font-family: arial;
+    text-align: center;
+    line-height: 35px;
+    
+}
+
+.search{
+    border: 2px solid black;
+    height: 25px;
+    width: 80%;
+    margin-top: 22px;
+}
+.col button{
+    background-color: blue;
+    box-shadow: 2px 2px black;
+    color: white;
+    margin-left: 60px;
+    margin-top: 22px;
+    height: 25px;
+    width: 50px;
+}
+.col-2-left{
+    flex: 1;
+    height: 80%;
+    text-align: center;
+    font-family: arial;
+    border: 2px solid black;
+    border-right: 0;
+    
+    
+}
+.col-2-left button{
+    background-color: peru;
+    box-shadow: 2px 2px black;
+}
+.col-2-right{
+    flex: 2;
+    height: 80%;
+    font-family: arial;
+    text-align: center;
+    border: 2px solid black;
+    border-left: 0;
+}
+.col-2-right p{
+    margin-top: 90px;
+    font-size: 18px;
+}
+.programmer{
+    margin-right: 80px;
+}
+.col-1-main{
+    height: 70%;
+    font-family: arial;
+    font-size: 20px;
+    border: 2px solid black;
+    margin-top: 28px;
+    margin-left: 20px;
+
+}
+.col-1-main p{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.col-1-main button{
+    box-shadow: 2px 2px black;
+    background-color: rgb(106, 158, 27);
+    margin-left: 30px;
+    width: 200px;
+    height: 40px;
+}
