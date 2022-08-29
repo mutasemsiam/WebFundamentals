@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-box{
+    width: 100%;
+    height: 940px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box1{
+    width: 970px;
+    height: 500px;
+    background-color: rgb(36, 80, 118);
+}
+.box2{
+    width: 970px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+}
+
+.box3{
+    width: 970px;
+    height: 100px;
+    background-color: rgb(36, 80, 118);
+    outline: 2px dotted coral;
+    
+}
+
+.box1-1{
+    width: 970px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.box1-1-right{
+    width: 470px;
+    height: 120px;  
+}
+
+.box1-1-right-top{
+    width: 470px;
+    height: 20px;
+    color: white;
+    margin-left: 250px;
+    margin-top: 20px;
+    font-family: arial;
+    font-size: 14px;
+
+}
+.span1{
+    color: gold;
+    text-decoration: underline;
+}
+.span2{
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.box1-1-right-bottom{
+    width: 470px;
+    height: 100px;
+    margin-top: 3px;
+}
+
+.box1-1-right-bottom ul{
+    display: flex;
+    padding: 15px 30px;
+    background-color: rgb(59, 59, 59);
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 200px;
+    border-radius: 12px;
+    box-shadow: 2px 2px rgb(26, 25, 25);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1-1-right-bottom ul button{
+    background-color: rgb(36, 80, 118);
+    color: white;
+    border: 1px solid grey;
+    padding: 2px;
+}
+
+.search-text{
+    padding: 6px;
+    text-align: center;
+    
+}
+
+.go-box {
+    margin-left: 3px;
+}
+
+.python-logo{
+    width: 75%;
+    height: 75%;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+
+.box1-1-left{
+    width: 500px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.box1-2{
+    width: 850px;
+    height: 50px;
+    background-color: rgb(77, 135, 158);
+    margin-left: 80px;
+    box-shadow: 3px 3px rgb(26, 25, 25);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.box1-2 ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: arial;
+    margin-left: 60px;
+    
+
+}
+.box1-2 ul li{
+    margin-right: 45px;
+}
+.box1-2 ul a{
+    color: white;
+    text-decoration: none;
+}
+.box1-3{
+    width: 970px;
+    height: 300px;
+    display: flex;
+}
+
+.box1-3-left{
+    width: 280px;
+    height: 300px;
+    
+}
+.box1-3-left ul{
+    text-align: center; 
+    list-style-position: inside;
+    margin-top: 35px;
+    margin-left: 80px;
+    list-style-type: circle;
+}   
+
+.box1-3-left li{
+    margin-top: 8px;
+    color: whitesmoke;
+    
+}
+
+.box1-3-left li a{
+    color: whitesmoke;
+    font-family: arial;  
+    margin-left: -13px;
+    
+}
+.box1-3-right{
+    width: 690px;
+    height: 300px;
+}
+
+.box1-3-right .p1{
+    font-size: 14.8px;
+    text-align: center;
+    color: rgb(215, 215, 247);
+    font-family: arial;
+    margin-top: 15px;
+    margin-right: 60px;
+}
+
+.box1-3-right .p2{
+    color: gold;
+    font-family: arial;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+}
+.box1-3-right .p3{
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+    font-family: arial;
+    margin-top: 10px;
+}
+
+.box2-left{
+    width: 400px;
+    height: 260px;
+    text-align: center;
+    font-family: arial;
+    margin-left: 80px;  
+}
+
+.box2-right{
+    width: 400px;
+    height: 260px;
+    text-align: center;
+    font-family: arial;
+    margin-left: 20px;
+}
+.box2-left-header, .box2-right-header{
+    font-size: 20px;
+    border-top: 5px solid skyblue;
+    margin-top: 5px;
+    padding-top: 10px;
+    
+}
+.box2-left p, .box2-right p{
+    margin-left: 21px;
+    margin-right: 21px;
+    padding: 15px;
+    font-size: 15px;
+}
+.box2-left li a, .box2-right li a{
+    color: skyblue;
+    text-decoration: none;
+}
+
+.box2-left ul, .box2-right ul{
+    list-style-type: square;
+    margin-left: 80px;
+    margin-right: 20px;
+    width: 280px;
+}
+
+.box2-right p a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+.box3 ul{
+    display: flex;
+    list-style:none;
+    justify-content: center;
+    margin-top: 40px;
+}
+.box3 ul li a{
+    color: rgb(146, 146, 233);
+    font-family: arial;
+    font-size: 18px;
+    text-decoration: none;
+}
+.box3 ul li {
+    margin-left: 40px;
+}
+.box3 p{
+    color:rgb(146, 146, 233);
+    text-align: center;
+    font-size: 9px;
+    margin-top: 20px;
+}
