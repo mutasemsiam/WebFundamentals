@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 750px;
+    margin: 0px auto;
+    font-family: arial;
+}
+.header{
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+}
+.title{
+   line-height: 60px;
+   margin-left: 20px;
+}
+
+.left{
+    width: 150px;
+    height: 250px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.left img{
+    width: 75px;
+    height: 75px;
+    margin-left: 37.5px;
+    margin-top: 25px;
+}
+
+.change-img, .name{
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+}
+.right{
+    width: 550px;
+    height: 650px;
+    margin-left: 50px;
+   
+}
+
+.content{
+    width: 750px;
+    display: flex;
+    
+}
+
+.neil, .nickole, .jim{
+    width: 550px;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;    
+
+}
+
+.neilnav, .nickolenav, .jimnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.neilname, .nickolename, .jimname{
+    font-weight: bold;
+    margin-left: 15px;
+}
+#count-likes-neil, #count-likes-jim{
+    margin-left: 300px;
+}
+
+#count-likes-nickole{
+    margin-left: 260px;
+}
+.like-button-jim, .like-button-nickole, .like-button-neil{
+    margin-right: 15px;
+    background-color: rgb(231, 221, 74);
+    box-shadow: 2px 2px black;
+    width: 50px;
+    font-size: 18px;
+}
+
+.nickolepost, .neilpost, .jimpost{
+    margin-left: 15px;
+    line-height: 80px;
+}

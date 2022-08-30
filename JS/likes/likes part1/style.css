@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 450px;
+    height: 120px;
+    border: 2px solid black;
+    margin-left: 120px;
+    margin-top: 50px;
+    box-shadow: 1px 1px black;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.like-button{
+    background-color: rgb(229, 224, 145);
+    box-shadow: 2px 2px black;
+    width: 50px;
+    font-size: 18px;
+}
+
+#count-likes{
+    margin-left: 160px;
+    font-weight: bold;
+}
+
+.content{
+    line-height: 80px;
+}
