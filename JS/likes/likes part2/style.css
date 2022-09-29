@@ -49,14 +49,12 @@ h1{
 .right{
     width: 550px;
     height: 650px;
-    margin-left: 50px;
-   
+    margin-left: 50px;  
 }
 
 .content{
     width: 750px;
-    display: flex;
-    
+    display: flex;    
 }
 
 .neil, .nickole, .jim{
@@ -65,7 +63,6 @@ h1{
     margin-bottom: 10px;
     border: 2px solid black;
     box-shadow: 2px 2px black;    
-
 }
 
 .neilnav, .nickolenav, .jimnav{
