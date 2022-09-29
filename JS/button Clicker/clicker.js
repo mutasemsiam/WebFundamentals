@@ -3,5 +3,5 @@ function logout(element){
 }
 
 function remove(element){
-    element.innerText = ""
+    element.remove()
 }
